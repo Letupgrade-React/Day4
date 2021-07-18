@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(220, 70%, 60%);
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (min-width: 568px) {
+    .tic-border {
+        width: 360px;
+        height: 360px;
+    }
+    .tic-border-nested {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .tic-border {
+        width: 276px;
+        height: 276px;
+    }
+    .tic-border-nested {
+        width: 92px;
+        height: 92px;
+    }
+}
+
+.btn {
+    background: hsl(270, 70%, 93%);
+}
+
+.btn {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    font-family: Impact;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: hsl(270, 70%, 60%);
+    box-shadow: 0 0 20px white;
+    border-radius: 10px;
+    border-color: hsl(270, 70%, 60%);
+    display: block;
+}
+
+.btn:hover {
+    background: hsl(270, 70%, 60%);
+    color: hsl(270, 70%, 93%);
+    border-color: hsl(270, 70%, 93%);
+    text-decoration: none;
+}
